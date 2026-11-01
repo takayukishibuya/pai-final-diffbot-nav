@@ -1,0 +1,4236 @@
+{
+ "summary": {
+  "ルールベース (ポテンシャル法)": {
+   "episodes": 300,
+   "success_rate": 0.8966666666666666,
+   "collision_rate": 0.0,
+   "timeout_rate": 0.10333333333333333,
+   "mean_time_success": 5.863940520446097,
+   "mean_path_success": 2.512298996385011,
+   "success_by_obstacles": {
+    "4-6個": 0.9349593495934959,
+    "7-8個": 0.8777777777777778,
+    "9-10個": 0.8620689655172413
+   }
+  },
+  "AI (強化学習 PPO)": {
+   "episodes": 300,
+   "success_rate": 0.9966666666666667,
+   "collision_rate": 0.0033333333333333335,
+   "timeout_rate": 0.0,
+   "mean_time_success": 5.314715719063545,
+   "mean_path_success": 2.5269420298243417,
+   "success_by_obstacles": {
+    "4-6個": 0.991869918699187,
+    "7-8個": 1.0,
+    "9-10個": 1.0
+   }
+  }
+ },
+ "episodes": {
+  "ルールベース (ポテンシャル法)": [
+   {
+    "seed": 10000,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 4.1000000000000005,
+    "path": 1.5130694848655963
+   },
+   {
+    "seed": 10001,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 3.9000000000000004,
+    "path": 1.8021576760119375
+   },
+   {
+    "seed": 10002,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 7.4,
+    "path": 3.0964724477558
+   },
+   {
+    "seed": 10003,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 6.1000000000000005,
+    "path": 2.362191116110723
+   },
+   {
+    "seed": 10004,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 4.800000000000001,
+    "path": 1.8260564457243802
+   },
+   {
+    "seed": 10005,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 6.4,
+    "path": 2.286598097983336
+   },
+   {
+    "seed": 10006,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 5.7,
+    "path": 2.6156848036565767
+   },
+   {
+    "seed": 10007,
+    "n_obstacles": 6,
+    "outcome": "timeout",
+    "time": 40.0,
+    "path": 2.0318168198585393
+   },
+   {
+    "seed": 10008,
+    "n_obstacles": 5,
+    "outcome": "success",
+    "time": 4.5,
+    "path": 2.1793060396610673
+   },
+   {
+    "seed": 10009,
+    "n_obstacles": 10,
+    "outcome": "timeout",
+    "time": 40.0,
+    "path": 1.3328713421410567
+   },
+   {
+    "seed": 10010,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 11.4,
+    "path": 5.35326632372983
+   },
+   {
+    "seed": 10011,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 3.3000000000000003,
+    "path": 1.5542209567620962
+   },
+   {
+    "seed": 10012,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 4.6000000000000005,
+    "path": 1.989357620132441
+   },
+   {
+    "seed": 10013,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 4.2,
+    "path": 1.7142099353850158
+   },
+   {
+    "seed": 10014,
+    "n_obstacles": 7,
+    "outcome": "timeout",
+    "time": 40.0,
+    "path": 2.122092764272287
+   },
+   {
+    "seed": 10015,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 3.9000000000000004,
+    "path": 1.5309658620249431
+   },
+   {
+    "seed": 10016,
+    "n_obstacles": 6,
+    "outcome": "timeout",
+    "time": 40.0,
+    "path": 2.1427169785216558
+   },
+   {
+    "seed": 10017,
+    "n_obstacles": 5,
+    "outcome": "success",
+    "time": 5.4,
+    "path": 2.60624307007896
+   },
+   {
+    "seed": 10018,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 6.300000000000001,
+    "path": 2.7538503430033874
+   },
+   {
+    "seed": 10019,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 8.8,
+    "path": 3.149778384365773
+   },
+   {
+    "seed": 10020,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 7.7,
+    "path": 3.597315230347545
+   },
+   {
+    "seed": 10021,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 3.8000000000000003,
+    "path": 1.7834882226293185
+   },
+   {
+    "seed": 10022,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 7.800000000000001,
+    "path": 3.4664966656422807
+   },
+   {
+    "seed": 10023,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 2.8000000000000003,
+    "path": 1.327845537828145
+   },
+   {
+    "seed": 10024,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 10.5,
+    "path": 4.029500525259185
+   },
+   {
+    "seed": 10025,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 6.6000000000000005,
+    "path": 2.778417392975837
+   },
+   {
+    "seed": 10026,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 5.7,
+    "path": 2.815832275496552
+   },
+   {
+    "seed": 10027,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 5.4,
+    "path": 2.541886255126701
+   },
+   {
+    "seed": 10028,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 6.9,
+    "path": 3.291625387918456
+   },
+   {
+    "seed": 10029,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 5.800000000000001,
+    "path": 2.3777401108646723
+   },
+   {
+    "seed": 10030,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 6.7,
+    "path": 2.7882302006561166
+   },
+   {
+    "seed": 10031,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 5.800000000000001,
+    "path": 2.5067497474257667
+   },
+   {
+    "seed": 10032,
+    "n_obstacles": 5,
+    "outcome": "success",
+    "time": 8.5,
+    "path": 3.722855977362387
+   },
+   {
+    "seed": 10033,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 5.7,
+    "path": 2.816834126348292
+   },
+   {
+    "seed": 10034,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 10.200000000000001,
+    "path": 2.6893947210154243
+   },
+   {
+    "seed": 10035,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 7.0,
+    "path": 3.033354467816907
+   },
+   {
+    "seed": 10036,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 9.200000000000001,
+    "path": 3.368480646167519
+   },
+   {
+    "seed": 10037,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 7.2,
+    "path": 3.412940375631652
+   },
+   {
+    "seed": 10038,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 3.8000000000000003,
+    "path": 1.5279998023314323
+   },
+   {
+    "seed": 10039,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 4.6000000000000005,
+    "path": 2.116672374400407
+   },
+   {
+    "seed": 10040,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 4.4,
+    "path": 1.9607531828100528
+   },
+   {
+    "seed": 10041,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 4.4,
+    "path": 1.7892187275254563
+   },
+   {
+    "seed": 10042,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 3.2,
+    "path": 1.497571933339441
+   },
+   {
+    "seed": 10043,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 5.800000000000001,
+    "path": 2.8238917959172585
+   },
+   {
+    "seed": 10044,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 3.3000000000000003,
+    "path": 1.6179719738363505
+   },
+   {
+    "seed": 10045,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 7.1000000000000005,
+    "path": 3.0902426173014654
+   },
+   {
+    "seed": 10046,
+    "n_obstacles": 5,
+    "outcome": "success",
+    "time": 8.6,
+    "path": 3.88494626251302
+   },
+   {
+    "seed": 10047,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 3.8000000000000003,
+    "path": 1.5978331537152861
+   },
+   {
+    "seed": 10048,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 5.2,
+    "path": 2.352050060826869
+   },
+   {
+    "seed": 10049,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 4.9,
+    "path": 2.13104825025698
+   },
+   {
+    "seed": 10050,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 7.6000000000000005,
+    "path": 2.8115106721140966
+   },
+   {
+    "seed": 10051,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 5.1000000000000005,
+    "path": 2.470268164516904
+   },
+   {
+    "seed": 10052,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 5.6000000000000005,
+    "path": 2.2174258978311676
+   },
+   {
+    "seed": 10053,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 4.0,
+    "path": 1.9396447498101068
+   },
+   {
+    "seed": 10054,
+    "n_obstacles": 4,
+    "outcome": "timeout",
+    "time": 40.0,
+    "path": 0.7729915953561732
+   },
+   {
+    "seed": 10055,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 4.5,
+    "path": 1.6683974552361205
+   },
+   {
+    "seed": 10056,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 6.0,
+    "path": 2.954805791279693
+   },
+   {
+    "seed": 10057,
+    "n_obstacles": 5,
+    "outcome": "timeout",
+    "time": 40.0,
+    "path": 1.0599133201894075
+   },
+   {
+    "seed": 10058,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 4.7,
+    "path": 2.286837726598543
+   },
+   {
+    "seed": 10059,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 2.7,
+    "path": 1.2827609171471497
+   },
+   {
+    "seed": 10060,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 4.0,
+    "path": 1.4336218773915799
+   },
+   {
+    "seed": 10061,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 4.4,
+    "path": 2.1600244219305824
+   },
+   {
+    "seed": 10062,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 3.8000000000000003,
+    "path": 1.584217862565507
+   },
+   {
+    "seed": 10063,
+    "n_obstacles": 8,
+    "outcome": "timeout",
+    "time": 40.0,
+    "path": 2.0869994978682134
+   },
+   {
+    "seed": 10064,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 6.6000000000000005,
+    "path": 2.728138314102449
+   },
+   {
+    "seed": 10065,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 3.6,
+    "path": 1.7438443133780581
+   },
+   {
+    "seed": 10066,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 5.4,
+    "path": 2.3575554744015776
+   },
+   {
+    "seed": 10067,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 4.2,
+    "path": 1.599492738108066
+   },
+   {
+    "seed": 10068,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 6.300000000000001,
+    "path": 2.82899698717831
+   },
+   {
+    "seed": 10069,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 9.0,
+    "path": 3.3661384334160456
+   },
+   {
+    "seed": 10070,
+    "n_obstacles": 9,
+    "outcome": "timeout",
+    "time": 40.0,
+    "path": 1.1327404350312849
+   },
+   {
+    "seed": 10071,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 4.2,
+    "path": 2.0099940292190084
+   },
+   {
+    "seed": 10072,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 7.2,
+    "path": 3.131323095380559
+   },
+   {
+    "seed": 10073,
+    "n_obstacles": 5,
+    "outcome": "success",
+    "time": 8.200000000000001,
+    "path": 3.761804094490832
+   },
+   {
+    "seed": 10074,
+    "n_obstacles": 5,
+    "outcome": "success",
+    "time": 5.5,
+    "path": 2.2693464790179307
+   },
+   {
+    "seed": 10075,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 5.1000000000000005,
+    "path": 2.2930625762382
+   },
+   {
+    "seed": 10076,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 5.300000000000001,
+    "path": 2.290680304338873
+   },
+   {
+    "seed": 10077,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 3.5,
+    "path": 1.663642234022875
+   },
+   {
+    "seed": 10078,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 4.9,
+    "path": 2.333665153449663
+   },
+   {
+    "seed": 10079,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 2.9000000000000004,
+    "path": 1.4153323463097967
+   },
+   {
+    "seed": 10080,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 3.9000000000000004,
+    "path": 1.8942407309817606
+   },
+   {
+    "seed": 10081,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 5.300000000000001,
+    "path": 2.5344840120265646
+   },
+   {
+    "seed": 10082,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 5.2,
+    "path": 2.193098072020694
+   },
+   {
+    "seed": 10083,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 5.300000000000001,
+    "path": 2.3626197436582963
+   },
+   {
+    "seed": 10084,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 10.100000000000001,
+    "path": 3.991258418258278
+   },
+   {
+    "seed": 10085,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 4.6000000000000005,
+    "path": 2.094102055870943
+   },
+   {
+    "seed": 10086,
+    "n_obstacles": 7,
+    "outcome": "timeout",
+    "time": 40.0,
+    "path": 1.501356274477844
+   },
+   {
+    "seed": 10087,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 3.6,
+    "path": 1.3913094792277556
+   },
+   {
+    "seed": 10088,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 3.3000000000000003,
+    "path": 1.562221053498187
+   },
+   {
+    "seed": 10089,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 3.6,
+    "path": 1.533198960761865
+   },
+   {
+    "seed": 10090,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 5.2,
+    "path": 2.1521579478629347
+   },
+   {
+    "seed": 10091,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 9.4,
+    "path": 3.924340172130628
+   },
+   {
+    "seed": 10092,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 6.7,
+    "path": 2.8591682406048218
+   },
+   {
+    "seed": 10093,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 3.6,
+    "path": 1.5725243588912865
+   },
+   {
+    "seed": 10094,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 5.9,
+    "path": 2.920091161445977
+   },
+   {
+    "seed": 10095,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 4.5,
+    "path": 2.0703186789385524
+   },
+   {
+    "seed": 10096,
+    "n_obstacles": 8,
+    "outcome": "timeout",
+    "time": 40.0,
+    "path": 1.3765778212436557
+   },
+   {
+    "seed": 10097,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 7.9,
+    "path": 3.536185692369767
+   },
+   {
+    "seed": 10098,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 3.7,
+    "path": 1.6124410441159698
+   },
+   {
+    "seed": 10099,
+    "n_obstacles": 7,
+    "outcome": "timeout",
+    "time": 40.0,
+    "path": 0.6448537777538329
+   },
+   {
+    "seed": 10100,
+    "n_obstacles": 5,
+    "outcome": "success",
+    "time": 6.2,
+    "path": 2.6937999490987883
+   },
+   {
+    "seed": 10101,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 6.0,
+    "path": 2.418036166942712
+   },
+   {
+    "seed": 10102,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 4.1000000000000005,
+    "path": 1.5189348388064958
+   },
+   {
+    "seed": 10103,
+    "n_obstacles": 9,
+    "outcome": "timeout",
+    "time": 40.0,
+    "path": 1.1193111890328555
+   },
+   {
+    "seed": 10104,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 12.700000000000001,
+    "path": 5.037957644497309
+   },
+   {
+    "seed": 10105,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 5.1000000000000005,
+    "path": 2.3942758216283253
+   },
+   {
+    "seed": 10106,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 4.1000000000000005,
+    "path": 1.7968046787561212
+   },
+   {
+    "seed": 10107,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 5.9,
+    "path": 2.594893198316295
+   },
+   {
+    "seed": 10108,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 12.200000000000001,
+    "path": 4.691054862206505
+   },
+   {
+    "seed": 10109,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 6.9,
+    "path": 2.8429953630781233
+   },
+   {
+    "seed": 10110,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 5.800000000000001,
+    "path": 2.6413296762998257
+   },
+   {
+    "seed": 10111,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 7.1000000000000005,
+    "path": 3.2563462009870032
+   },
+   {
+    "seed": 10112,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 3.5,
+    "path": 1.6317984204522709
+   },
+   {
+    "seed": 10113,
+    "n_obstacles": 5,
+    "outcome": "success",
+    "time": 3.1,
+    "path": 1.3414238062080135
+   },
+   {
+    "seed": 10114,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 5.4,
+    "path": 2.1676006033078696
+   },
+   {
+    "seed": 10115,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 4.6000000000000005,
+    "path": 2.0032498527423557
+   },
+   {
+    "seed": 10116,
+    "n_obstacles": 5,
+    "outcome": "success",
+    "time": 4.6000000000000005,
+    "path": 2.251636738053585
+   },
+   {
+    "seed": 10117,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 8.0,
+    "path": 3.6546817401316645
+   },
+   {
+    "seed": 10118,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 7.2,
+    "path": 2.430533786156242
+   },
+   {
+    "seed": 10119,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 3.5,
+    "path": 1.5920889611097406
+   },
+   {
+    "seed": 10120,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 5.6000000000000005,
+    "path": 2.5311741699155252
+   },
+   {
+    "seed": 10121,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 4.5,
+    "path": 1.9967836712284126
+   },
+   {
+    "seed": 10122,
+    "n_obstacles": 5,
+    "outcome": "success",
+    "time": 7.1000000000000005,
+    "path": 3.327049501706608
+   },
+   {
+    "seed": 10123,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 8.6,
+    "path": 3.163109466229839
+   },
+   {
+    "seed": 10124,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 6.9,
+    "path": 3.231099190323149
+   },
+   {
+    "seed": 10125,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 6.800000000000001,
+    "path": 2.793204803206403
+   },
+   {
+    "seed": 10126,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 5.5,
+    "path": 2.7207622133981233
+   },
+   {
+    "seed": 10127,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 5.2,
+    "path": 2.214421952723332
+   },
+   {
+    "seed": 10128,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 4.3,
+    "path": 2.02353834865339
+   },
+   {
+    "seed": 10129,
+    "n_obstacles": 10,
+    "outcome": "timeout",
+    "time": 40.0,
+    "path": 2.480040906625067
+   },
+   {
+    "seed": 10130,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 4.7,
+    "path": 2.146728198651217
+   },
+   {
+    "seed": 10131,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 3.6,
+    "path": 1.7319550631617853
+   },
+   {
+    "seed": 10132,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 3.2,
+    "path": 1.498662132848724
+   },
+   {
+    "seed": 10133,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 8.9,
+    "path": 3.5174180091190683
+   },
+   {
+    "seed": 10134,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 3.9000000000000004,
+    "path": 1.435067882109451
+   },
+   {
+    "seed": 10135,
+    "n_obstacles": 10,
+    "outcome": "timeout",
+    "time": 40.0,
+    "path": 0.680808880111142
+   },
+   {
+    "seed": 10136,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 4.6000000000000005,
+    "path": 2.055511076848669
+   },
+   {
+    "seed": 10137,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 3.7,
+    "path": 1.785688047010593
+   },
+   {
+    "seed": 10138,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 3.4000000000000004,
+    "path": 1.5041031321870146
+   },
+   {
+    "seed": 10139,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 3.4000000000000004,
+    "path": 1.4853946069552915
+   },
+   {
+    "seed": 10140,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 7.4,
+    "path": 3.107270983253956
+   },
+   {
+    "seed": 10141,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 4.7,
+    "path": 1.9977464140492107
+   },
+   {
+    "seed": 10142,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 6.1000000000000005,
+    "path": 2.7979399029215326
+   },
+   {
+    "seed": 10143,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 13.5,
+    "path": 3.287814532037368
+   },
+   {
+    "seed": 10144,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 7.800000000000001,
+    "path": 3.439488335310313
+   },
+   {
+    "seed": 10145,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 4.7,
+    "path": 1.7991614719100966
+   },
+   {
+    "seed": 10146,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 4.6000000000000005,
+    "path": 1.97642974746328
+   },
+   {
+    "seed": 10147,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 7.5,
+    "path": 3.5461253118305502
+   },
+   {
+    "seed": 10148,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 5.5,
+    "path": 2.3041022705386487
+   },
+   {
+    "seed": 10149,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 14.100000000000001,
+    "path": 6.249874459291622
+   },
+   {
+    "seed": 10150,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 6.2,
+    "path": 2.7429166063968067
+   },
+   {
+    "seed": 10151,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 4.9,
+    "path": 2.3170496351727183
+   },
+   {
+    "seed": 10152,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 4.9,
+    "path": 1.9515616099442115
+   },
+   {
+    "seed": 10153,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 7.6000000000000005,
+    "path": 3.1768945567308875
+   },
+   {
+    "seed": 10154,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 9.3,
+    "path": 4.150007026378436
+   },
+   {
+    "seed": 10155,
+    "n_obstacles": 7,
+    "outcome": "timeout",
+    "time": 40.0,
+    "path": 3.251096112739358
+   },
+   {
+    "seed": 10156,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 4.0,
+    "path": 1.637833238404845
+   },
+   {
+    "seed": 10157,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 3.3000000000000003,
+    "path": 1.5670890045479398
+   },
+   {
+    "seed": 10158,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 5.300000000000001,
+    "path": 2.067115973480954
+   },
+   {
+    "seed": 10159,
+    "n_obstacles": 5,
+    "outcome": "success",
+    "time": 4.0,
+    "path": 1.9074848414252012
+   },
+   {
+    "seed": 10160,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 2.7,
+    "path": 1.3246595708090196
+   },
+   {
+    "seed": 10161,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 10.600000000000001,
+    "path": 4.16597534353475
+   },
+   {
+    "seed": 10162,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 6.5,
+    "path": 2.576818958613561
+   },
+   {
+    "seed": 10163,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 3.9000000000000004,
+    "path": 1.5453675752101084
+   },
+   {
+    "seed": 10164,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 5.2,
+    "path": 2.551152951464888
+   },
+   {
+    "seed": 10165,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 3.2,
+    "path": 1.5119696866443058
+   },
+   {
+    "seed": 10166,
+    "n_obstacles": 5,
+    "outcome": "success",
+    "time": 10.200000000000001,
+    "path": 3.6528773522970077
+   },
+   {
+    "seed": 10167,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 3.7,
+    "path": 1.7291855249260089
+   },
+   {
+    "seed": 10168,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 4.5,
+    "path": 2.1626048017184707
+   },
+   {
+    "seed": 10169,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 11.8,
+    "path": 3.9613280494546705
+   },
+   {
+    "seed": 10170,
+    "n_obstacles": 7,
+    "outcome": "timeout",
+    "time": 40.0,
+    "path": 0.6689054473950188
+   },
+   {
+    "seed": 10171,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 5.300000000000001,
+    "path": 2.293888788842019
+   },
+   {
+    "seed": 10172,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 7.4,
+    "path": 3.6560362030756886
+   },
+   {
+    "seed": 10173,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 5.800000000000001,
+    "path": 2.5294593109207315
+   },
+   {
+    "seed": 10174,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 4.5,
+    "path": 2.153301812767087
+   },
+   {
+    "seed": 10175,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 7.7,
+    "path": 3.7380209003635234
+   },
+   {
+    "seed": 10176,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 4.0,
+    "path": 1.782647751693409
+   },
+   {
+    "seed": 10177,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 3.2,
+    "path": 1.3716453915935636
+   },
+   {
+    "seed": 10178,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 9.200000000000001,
+    "path": 4.088616851910873
+   },
+   {
+    "seed": 10179,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 8.3,
+    "path": 3.5845482404467948
+   },
+   {
+    "seed": 10180,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 3.8000000000000003,
+    "path": 1.8356054850052377
+   },
+   {
+    "seed": 10181,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 7.7,
+    "path": 3.0915430505614285
+   },
+   {
+    "seed": 10182,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 11.9,
+    "path": 4.8800497617424465
+   },
+   {
+    "seed": 10183,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 8.9,
+    "path": 3.5748115572565498
+   },
+   {
+    "seed": 10184,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 6.300000000000001,
+    "path": 2.8104324291735203
+   },
+   {
+    "seed": 10185,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 5.5,
+    "path": 2.6172821028451585
+   },
+   {
+    "seed": 10186,
+    "n_obstacles": 5,
+    "outcome": "timeout",
+    "time": 40.0,
+    "path": 0.6922318887853816
+   },
+   {
+    "seed": 10187,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 8.6,
+    "path": 3.886393334763801
+   },
+   {
+    "seed": 10188,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 3.2,
+    "path": 1.5330159168278932
+   },
+   {
+    "seed": 10189,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 2.8000000000000003,
+    "path": 1.3588871331724064
+   },
+   {
+    "seed": 10190,
+    "n_obstacles": 8,
+    "outcome": "timeout",
+    "time": 40.0,
+    "path": 0.8433351543914871
+   },
+   {
+    "seed": 10191,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 2.8000000000000003,
+    "path": 1.31454346026545
+   },
+   {
+    "seed": 10192,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 5.2,
+    "path": 2.205641360930453
+   },
+   {
+    "seed": 10193,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 7.6000000000000005,
+    "path": 3.2813241646106484
+   },
+   {
+    "seed": 10194,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 8.4,
+    "path": 3.771274781808538
+   },
+   {
+    "seed": 10195,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 5.6000000000000005,
+    "path": 2.599192323908508
+   },
+   {
+    "seed": 10196,
+    "n_obstacles": 10,
+    "outcome": "timeout",
+    "time": 40.0,
+    "path": 1.1477523578994273
+   },
+   {
+    "seed": 10197,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 4.2,
+    "path": 1.9634664165326314
+   },
+   {
+    "seed": 10198,
+    "n_obstacles": 9,
+    "outcome": "timeout",
+    "time": 40.0,
+    "path": 1.9639732049611138
+   },
+   {
+    "seed": 10199,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 5.6000000000000005,
+    "path": 2.6673229819639994
+   },
+   {
+    "seed": 10200,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 5.0,
+    "path": 2.0343006525429597
+   },
+   {
+    "seed": 10201,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 4.0,
+    "path": 1.8920391591683747
+   },
+   {
+    "seed": 10202,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 5.300000000000001,
+    "path": 2.2241680292078247
+   },
+   {
+    "seed": 10203,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 6.0,
+    "path": 2.4964603142474298
+   },
+   {
+    "seed": 10204,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 5.300000000000001,
+    "path": 2.255535675879189
+   },
+   {
+    "seed": 10205,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 10.100000000000001,
+    "path": 4.617940907582765
+   },
+   {
+    "seed": 10206,
+    "n_obstacles": 5,
+    "outcome": "success",
+    "time": 5.300000000000001,
+    "path": 2.513024198554719
+   },
+   {
+    "seed": 10207,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 17.0,
+    "path": 3.797438446327225
+   },
+   {
+    "seed": 10208,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 4.1000000000000005,
+    "path": 1.88462658008364
+   },
+   {
+    "seed": 10209,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 8.3,
+    "path": 3.394684790297814
+   },
+   {
+    "seed": 10210,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 4.0,
+    "path": 1.9652473425863093
+   },
+   {
+    "seed": 10211,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 5.2,
+    "path": 2.1200138111720714
+   },
+   {
+    "seed": 10212,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 2.9000000000000004,
+    "path": 1.393683450914446
+   },
+   {
+    "seed": 10213,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 5.6000000000000005,
+    "path": 2.5393642333174884
+   },
+   {
+    "seed": 10214,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 2.7,
+    "path": 1.304676106476544
+   },
+   {
+    "seed": 10215,
+    "n_obstacles": 5,
+    "outcome": "success",
+    "time": 6.1000000000000005,
+    "path": 2.4590645267109195
+   },
+   {
+    "seed": 10216,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 7.1000000000000005,
+    "path": 3.374373428461771
+   },
+   {
+    "seed": 10217,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 4.7,
+    "path": 2.3202491016225064
+   },
+   {
+    "seed": 10218,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 5.800000000000001,
+    "path": 2.5354880818411303
+   },
+   {
+    "seed": 10219,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 4.800000000000001,
+    "path": 2.171308752813983
+   },
+   {
+    "seed": 10220,
+    "n_obstacles": 5,
+    "outcome": "success",
+    "time": 4.3,
+    "path": 2.087425714872765
+   },
+   {
+    "seed": 10221,
+    "n_obstacles": 5,
+    "outcome": "success",
+    "time": 8.9,
+    "path": 3.6645808180453274
+   },
+   {
+    "seed": 10222,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 4.1000000000000005,
+    "path": 1.966107520599543
+   },
+   {
+    "seed": 10223,
+    "n_obstacles": 5,
+    "outcome": "success",
+    "time": 6.4,
+    "path": 2.697801174192629
+   },
+   {
+    "seed": 10224,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 8.9,
+    "path": 3.5639640308079
+   },
+   {
+    "seed": 10225,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 11.100000000000001,
+    "path": 4.393331173350832
+   },
+   {
+    "seed": 10226,
+    "n_obstacles": 6,
+    "outcome": "timeout",
+    "time": 40.0,
+    "path": 0.9583445453672066
+   },
+   {
+    "seed": 10227,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 12.200000000000001,
+    "path": 4.115948858596574
+   },
+   {
+    "seed": 10228,
+    "n_obstacles": 9,
+    "outcome": "timeout",
+    "time": 40.0,
+    "path": 2.6735035335451123
+   },
+   {
+    "seed": 10229,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 3.2,
+    "path": 1.402477192106846
+   },
+   {
+    "seed": 10230,
+    "n_obstacles": 7,
+    "outcome": "timeout",
+    "time": 40.0,
+    "path": 2.8103167372054374
+   },
+   {
+    "seed": 10231,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 4.0,
+    "path": 1.9626067239794383
+   },
+   {
+    "seed": 10232,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 4.3,
+    "path": 2.1189292522732806
+   },
+   {
+    "seed": 10233,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 5.2,
+    "path": 2.5176490379357572
+   },
+   {
+    "seed": 10234,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 5.5,
+    "path": 2.1437825021458874
+   },
+   {
+    "seed": 10235,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 6.800000000000001,
+    "path": 2.649443535187401
+   },
+   {
+    "seed": 10236,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 6.9,
+    "path": 3.0584572151392835
+   },
+   {
+    "seed": 10237,
+    "n_obstacles": 6,
+    "outcome": "timeout",
+    "time": 40.0,
+    "path": 1.1001547522970168
+   },
+   {
+    "seed": 10238,
+    "n_obstacles": 5,
+    "outcome": "success",
+    "time": 8.3,
+    "path": 3.7481278340773625
+   },
+   {
+    "seed": 10239,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 3.1,
+    "path": 1.3601350969764534
+   },
+   {
+    "seed": 10240,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 11.8,
+    "path": 3.368459996559474
+   },
+   {
+    "seed": 10241,
+    "n_obstacles": 5,
+    "outcome": "success",
+    "time": 5.9,
+    "path": 2.3559851887676793
+   },
+   {
+    "seed": 10242,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 6.2,
+    "path": 2.8629822565532974
+   },
+   {
+    "seed": 10243,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 7.7,
+    "path": 2.8462534246411653
+   },
+   {
+    "seed": 10244,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 6.800000000000001,
+    "path": 3.2735117571915864
+   },
+   {
+    "seed": 10245,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 5.4,
+    "path": 2.358846981443298
+   },
+   {
+    "seed": 10246,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 3.8000000000000003,
+    "path": 1.4962075821373968
+   },
+   {
+    "seed": 10247,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 7.2,
+    "path": 3.052677436307885
+   },
+   {
+    "seed": 10248,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 4.6000000000000005,
+    "path": 1.6873640719836758
+   },
+   {
+    "seed": 10249,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 9.1,
+    "path": 3.9142834035482097
+   },
+   {
+    "seed": 10250,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 3.2,
+    "path": 1.4842489061006285
+   },
+   {
+    "seed": 10251,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 6.5,
+    "path": 3.1830445304019066
+   },
+   {
+    "seed": 10252,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 5.2,
+    "path": 2.4756619996993514
+   },
+   {
+    "seed": 10253,
+    "n_obstacles": 10,
+    "outcome": "timeout",
+    "time": 40.0,
+    "path": 1.3491751119959865
+   },
+   {
+    "seed": 10254,
+    "n_obstacles": 10,
+    "outcome": "timeout",
+    "time": 40.0,
+    "path": 2.132616265787441
+   },
+   {
+    "seed": 10255,
+    "n_obstacles": 5,
+    "outcome": "success",
+    "time": 7.4,
+    "path": 3.448243768993455
+   },
+   {
+    "seed": 10256,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 6.0,
+    "path": 2.9646692462424165
+   },
+   {
+    "seed": 10257,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 4.5,
+    "path": 1.945271204209298
+   },
+   {
+    "seed": 10258,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 5.6000000000000005,
+    "path": 2.6427718428278175
+   },
+   {
+    "seed": 10259,
+    "n_obstacles": 6,
+    "outcome": "timeout",
+    "time": 40.0,
+    "path": 2.001031952419694
+   },
+   {
+    "seed": 10260,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 3.7,
+    "path": 1.6738305789332417
+   },
+   {
+    "seed": 10261,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 5.6000000000000005,
+    "path": 2.5677150615549276
+   },
+   {
+    "seed": 10262,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 2.9000000000000004,
+    "path": 1.4151596377658513
+   },
+   {
+    "seed": 10263,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 6.6000000000000005,
+    "path": 3.1616445829100557
+   },
+   {
+    "seed": 10264,
+    "n_obstacles": 9,
+    "outcome": "timeout",
+    "time": 40.0,
+    "path": 1.364553373994848
+   },
+   {
+    "seed": 10265,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 4.800000000000001,
+    "path": 2.1647200485938094
+   },
+   {
+    "seed": 10266,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 4.0,
+    "path": 1.4836354619366603
+   },
+   {
+    "seed": 10267,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 6.2,
+    "path": 2.663976160539786
+   },
+   {
+    "seed": 10268,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 4.800000000000001,
+    "path": 2.1465313405090307
+   },
+   {
+    "seed": 10269,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 3.8000000000000003,
+    "path": 1.8578440250367436
+   },
+   {
+    "seed": 10270,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 3.0,
+    "path": 1.4394228183216355
+   },
+   {
+    "seed": 10271,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 7.1000000000000005,
+    "path": 3.2193394006628044
+   },
+   {
+    "seed": 10272,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 5.0,
+    "path": 2.276254007117674
+   },
+   {
+    "seed": 10273,
+    "n_obstacles": 10,
+    "outcome": "timeout",
+    "time": 40.0,
+    "path": 3.095605667032997
+   },
+   {
+    "seed": 10274,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 5.300000000000001,
+    "path": 2.251280200275089
+   },
+   {
+    "seed": 10275,
+    "n_obstacles": 5,
+    "outcome": "success",
+    "time": 3.8000000000000003,
+    "path": 1.7167224892565112
+   },
+   {
+    "seed": 10276,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 7.800000000000001,
+    "path": 3.556347476500493
+   },
+   {
+    "seed": 10277,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 9.9,
+    "path": 4.462598046644427
+   },
+   {
+    "seed": 10278,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 4.800000000000001,
+    "path": 2.1370558986915333
+   },
+   {
+    "seed": 10279,
+    "n_obstacles": 8,
+    "outcome": "timeout",
+    "time": 40.0,
+    "path": 1.1032318737475393
+   },
+   {
+    "seed": 10280,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 4.7,
+    "path": 1.8407047255071338
+   },
+   {
+    "seed": 10281,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 4.5,
+    "path": 2.1567566012530714
+   },
+   {
+    "seed": 10282,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 6.6000000000000005,
+    "path": 2.742776794335272
+   },
+   {
+    "seed": 10283,
+    "n_obstacles": 7,
+    "outcome": "timeout",
+    "time": 40.0,
+    "path": 1.523552681996504
+   },
+   {
+    "seed": 10284,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 5.4,
+    "path": 2.2479433727336873
+   },
+   {
+    "seed": 10285,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 3.8000000000000003,
+    "path": 1.3690342842888914
+   },
+   {
+    "seed": 10286,
+    "n_obstacles": 5,
+    "outcome": "success",
+    "time": 4.9,
+    "path": 2.0050530551184136
+   },
+   {
+    "seed": 10287,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 4.3,
+    "path": 1.8811461144733734
+   },
+   {
+    "seed": 10288,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 8.700000000000001,
+    "path": 3.4725194111976214
+   },
+   {
+    "seed": 10289,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 6.800000000000001,
+    "path": 2.9673124509075497
+   },
+   {
+    "seed": 10290,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 8.1,
+    "path": 3.644011328782849
+   },
+   {
+    "seed": 10291,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 3.9000000000000004,
+    "path": 1.8183306131704178
+   },
+   {
+    "seed": 10292,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 6.800000000000001,
+    "path": 2.4960265231596437
+   },
+   {
+    "seed": 10293,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 9.200000000000001,
+    "path": 3.556504550487646
+   },
+   {
+    "seed": 10294,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 3.1,
+    "path": 1.3360613748271692
+   },
+   {
+    "seed": 10295,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 8.1,
+    "path": 3.518373653584294
+   },
+   {
+    "seed": 10296,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 3.3000000000000003,
+    "path": 1.6159690104677544
+   },
+   {
+    "seed": 10297,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 5.1000000000000005,
+    "path": 2.0462124331817098
+   },
+   {
+    "seed": 10298,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 5.2,
+    "path": 2.549560309776228
+   },
+   {
+    "seed": 10299,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 6.0,
+    "path": 2.4502977528838508
+   }
+  ],
+  "AI (強化学習 PPO)": [
+   {
+    "seed": 10000,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 3.9000000000000004,
+    "path": 1.7258148874477492
+   },
+   {
+    "seed": 10001,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 3.8000000000000003,
+    "path": 1.8691989166944167
+   },
+   {
+    "seed": 10002,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 6.5,
+    "path": 3.028891780522496
+   },
+   {
+    "seed": 10003,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 3.7,
+    "path": 1.823569201113865
+   },
+   {
+    "seed": 10004,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 4.3,
+    "path": 1.8960071158467575
+   },
+   {
+    "seed": 10005,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 4.9,
+    "path": 2.2264399915750195
+   },
+   {
+    "seed": 10006,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 5.0,
+    "path": 2.4687153731888434
+   },
+   {
+    "seed": 10007,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 9.1,
+    "path": 4.164494093880478
+   },
+   {
+    "seed": 10008,
+    "n_obstacles": 5,
+    "outcome": "success",
+    "time": 4.3,
+    "path": 2.1187959293311485
+   },
+   {
+    "seed": 10009,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 5.800000000000001,
+    "path": 2.486686346332995
+   },
+   {
+    "seed": 10010,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 10.100000000000001,
+    "path": 5.0104139864256725
+   },
+   {
+    "seed": 10011,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 3.2,
+    "path": 1.569393161076273
+   },
+   {
+    "seed": 10012,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 4.4,
+    "path": 2.0829970911931035
+   },
+   {
+    "seed": 10013,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 4.1000000000000005,
+    "path": 1.8806780137818027
+   },
+   {
+    "seed": 10014,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 8.200000000000001,
+    "path": 4.061024830364077
+   },
+   {
+    "seed": 10015,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 3.7,
+    "path": 1.5897557809638043
+   },
+   {
+    "seed": 10016,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 6.7,
+    "path": 3.2616026864638594
+   },
+   {
+    "seed": 10017,
+    "n_obstacles": 5,
+    "outcome": "success",
+    "time": 5.4,
+    "path": 2.6656964803238514
+   },
+   {
+    "seed": 10018,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 6.2,
+    "path": 2.8282861446607845
+   },
+   {
+    "seed": 10019,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 5.4,
+    "path": 2.568925256303514
+   },
+   {
+    "seed": 10020,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 7.1000000000000005,
+    "path": 3.513462105817678
+   },
+   {
+    "seed": 10021,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 3.8000000000000003,
+    "path": 1.8695197664894656
+   },
+   {
+    "seed": 10022,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 7.6000000000000005,
+    "path": 3.520689965022934
+   },
+   {
+    "seed": 10023,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 2.7,
+    "path": 1.3244309730327606
+   },
+   {
+    "seed": 10024,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 8.3,
+    "path": 4.10491377671309
+   },
+   {
+    "seed": 10025,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 6.4,
+    "path": 2.8691247213631645
+   },
+   {
+    "seed": 10026,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 5.7,
+    "path": 2.8169276285499323
+   },
+   {
+    "seed": 10027,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 5.0,
+    "path": 2.4667369163148765
+   },
+   {
+    "seed": 10028,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 6.4,
+    "path": 3.166303197292248
+   },
+   {
+    "seed": 10029,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 4.6000000000000005,
+    "path": 2.270938924508446
+   },
+   {
+    "seed": 10030,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 5.5,
+    "path": 2.689753888789083
+   },
+   {
+    "seed": 10031,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 5.6000000000000005,
+    "path": 2.621347520072964
+   },
+   {
+    "seed": 10032,
+    "n_obstacles": 5,
+    "outcome": "success",
+    "time": 8.200000000000001,
+    "path": 3.791754811280497
+   },
+   {
+    "seed": 10033,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 5.7,
+    "path": 2.816875882447919
+   },
+   {
+    "seed": 10034,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 4.7,
+    "path": 2.2244596104984935
+   },
+   {
+    "seed": 10035,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 5.0,
+    "path": 2.4704238718421028
+   },
+   {
+    "seed": 10036,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 5.300000000000001,
+    "path": 2.615146514112255
+   },
+   {
+    "seed": 10037,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 6.800000000000001,
+    "path": 3.3585114674248957
+   },
+   {
+    "seed": 10038,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 3.7,
+    "path": 1.5952453720873423
+   },
+   {
+    "seed": 10039,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 4.4,
+    "path": 2.1169509206450803
+   },
+   {
+    "seed": 10040,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 4.4,
+    "path": 2.1483130523609266
+   },
+   {
+    "seed": 10041,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 4.4,
+    "path": 1.9082294973655654
+   },
+   {
+    "seed": 10042,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 3.2,
+    "path": 1.5695454011073637
+   },
+   {
+    "seed": 10043,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 5.7,
+    "path": 2.8179629689213943
+   },
+   {
+    "seed": 10044,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 3.3000000000000003,
+    "path": 1.622068043375289
+   },
+   {
+    "seed": 10045,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 6.7,
+    "path": 3.162570694055549
+   },
+   {
+    "seed": 10046,
+    "n_obstacles": 5,
+    "outcome": "success",
+    "time": 7.300000000000001,
+    "path": 3.6126625088219875
+   },
+   {
+    "seed": 10047,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 3.7,
+    "path": 1.6601117878582081
+   },
+   {
+    "seed": 10048,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 5.0,
+    "path": 2.43518507796903
+   },
+   {
+    "seed": 10049,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 4.800000000000001,
+    "path": 2.204459059940502
+   },
+   {
+    "seed": 10050,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 4.7,
+    "path": 2.3204031257601563
+   },
+   {
+    "seed": 10051,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 5.0,
+    "path": 2.4663111415876453
+   },
+   {
+    "seed": 10052,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 5.4,
+    "path": 2.28949649060466
+   },
+   {
+    "seed": 10053,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 4.0,
+    "path": 1.9714503236513918
+   },
+   {
+    "seed": 10054,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 6.6000000000000005,
+    "path": 3.2011679376886106
+   },
+   {
+    "seed": 10055,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 4.3,
+    "path": 1.8143554594999645
+   },
+   {
+    "seed": 10056,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 5.9,
+    "path": 2.9193985420826816
+   },
+   {
+    "seed": 10057,
+    "n_obstacles": 5,
+    "outcome": "success",
+    "time": 5.7,
+    "path": 2.5601000764430384
+   },
+   {
+    "seed": 10058,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 4.6000000000000005,
+    "path": 2.2671283634028048
+   },
+   {
+    "seed": 10059,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 2.7,
+    "path": 1.3229099311183696
+   },
+   {
+    "seed": 10060,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 3.8000000000000003,
+    "path": 1.5399190974411077
+   },
+   {
+    "seed": 10061,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 4.4,
+    "path": 2.1710508865568516
+   },
+   {
+    "seed": 10062,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 3.2,
+    "path": 1.536464881873039
+   },
+   {
+    "seed": 10063,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 6.9,
+    "path": 3.3838937509767737
+   },
+   {
+    "seed": 10064,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 6.4,
+    "path": 2.845217911332664
+   },
+   {
+    "seed": 10065,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 3.4000000000000004,
+    "path": 1.6745424482730982
+   },
+   {
+    "seed": 10066,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 5.1000000000000005,
+    "path": 2.436265576347422
+   },
+   {
+    "seed": 10067,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 4.0,
+    "path": 1.747556968770387
+   },
+   {
+    "seed": 10068,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 6.1000000000000005,
+    "path": 2.8834943541971985
+   },
+   {
+    "seed": 10069,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 6.6000000000000005,
+    "path": 3.1888605128839287
+   },
+   {
+    "seed": 10070,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 6.5,
+    "path": 3.1663244555567274
+   },
+   {
+    "seed": 10071,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 4.2,
+    "path": 2.070002338095026
+   },
+   {
+    "seed": 10072,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 7.1000000000000005,
+    "path": 3.2471090169881305
+   },
+   {
+    "seed": 10073,
+    "n_obstacles": 5,
+    "outcome": "success",
+    "time": 7.6000000000000005,
+    "path": 3.6381891796210564
+   },
+   {
+    "seed": 10074,
+    "n_obstacles": 5,
+    "outcome": "success",
+    "time": 5.300000000000001,
+    "path": 2.381793801686193
+   },
+   {
+    "seed": 10075,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 4.4,
+    "path": 2.160227841972986
+   },
+   {
+    "seed": 10076,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 5.2,
+    "path": 2.4283295287840287
+   },
+   {
+    "seed": 10077,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 3.4000000000000004,
+    "path": 1.6688425222035845
+   },
+   {
+    "seed": 10078,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 4.800000000000001,
+    "path": 2.366475763449812
+   },
+   {
+    "seed": 10079,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 2.9000000000000004,
+    "path": 1.4226659694031778
+   },
+   {
+    "seed": 10080,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 3.9000000000000004,
+    "path": 1.919898631529757
+   },
+   {
+    "seed": 10081,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 5.2,
+    "path": 2.569892443559898
+   },
+   {
+    "seed": 10082,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 5.0,
+    "path": 2.3508192444610425
+   },
+   {
+    "seed": 10083,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 5.2,
+    "path": 2.3987937988675574
+   },
+   {
+    "seed": 10084,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 8.1,
+    "path": 3.717535289689114
+   },
+   {
+    "seed": 10085,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 3.9000000000000004,
+    "path": 1.9155664801868613
+   },
+   {
+    "seed": 10086,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 5.300000000000001,
+    "path": 2.6146323226157153
+   },
+   {
+    "seed": 10087,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 3.4000000000000004,
+    "path": 1.4077260313311988
+   },
+   {
+    "seed": 10088,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 3.2,
+    "path": 1.5686834478403744
+   },
+   {
+    "seed": 10089,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 3.5,
+    "path": 1.6806444766161663
+   },
+   {
+    "seed": 10090,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 4.9,
+    "path": 2.2276277850248536
+   },
+   {
+    "seed": 10091,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 6.800000000000001,
+    "path": 3.360767242870962
+   },
+   {
+    "seed": 10092,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 6.4,
+    "path": 2.905638151826811
+   },
+   {
+    "seed": 10093,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 3.6,
+    "path": 1.763286388529994
+   },
+   {
+    "seed": 10094,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 6.0,
+    "path": 2.9689737376469902
+   },
+   {
+    "seed": 10095,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 4.1000000000000005,
+    "path": 2.020337861718624
+   },
+   {
+    "seed": 10096,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 7.5,
+    "path": 3.7146312028615593
+   },
+   {
+    "seed": 10097,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 6.6000000000000005,
+    "path": 3.265202477183011
+   },
+   {
+    "seed": 10098,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 3.5,
+    "path": 1.6255462220797758
+   },
+   {
+    "seed": 10099,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 8.700000000000001,
+    "path": 4.315012905135353
+   },
+   {
+    "seed": 10100,
+    "n_obstacles": 5,
+    "outcome": "success",
+    "time": 5.6000000000000005,
+    "path": 2.6456042271884535
+   },
+   {
+    "seed": 10101,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 5.800000000000001,
+    "path": 2.438239972793148
+   },
+   {
+    "seed": 10102,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 4.1000000000000005,
+    "path": 1.6166697820049811
+   },
+   {
+    "seed": 10103,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 4.6000000000000005,
+    "path": 2.2691394716003312
+   },
+   {
+    "seed": 10104,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 9.1,
+    "path": 4.127170892053319
+   },
+   {
+    "seed": 10105,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 4.5,
+    "path": 2.2206406168122643
+   },
+   {
+    "seed": 10106,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 4.0,
+    "path": 1.9210938751704811
+   },
+   {
+    "seed": 10107,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 5.300000000000001,
+    "path": 2.609892683781748
+   },
+   {
+    "seed": 10108,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 8.9,
+    "path": 4.288631827189022
+   },
+   {
+    "seed": 10109,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 5.7,
+    "path": 2.683072754361195
+   },
+   {
+    "seed": 10110,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 5.4,
+    "path": 2.656289539151652
+   },
+   {
+    "seed": 10111,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 6.9,
+    "path": 3.25094401204289
+   },
+   {
+    "seed": 10112,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 3.4000000000000004,
+    "path": 1.6691856052434764
+   },
+   {
+    "seed": 10113,
+    "n_obstacles": 5,
+    "outcome": "success",
+    "time": 3.0,
+    "path": 1.3857367182221898
+   },
+   {
+    "seed": 10114,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 5.0,
+    "path": 2.2257423367802787
+   },
+   {
+    "seed": 10115,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 4.4,
+    "path": 2.046125553817851
+   },
+   {
+    "seed": 10116,
+    "n_obstacles": 5,
+    "outcome": "success",
+    "time": 4.6000000000000005,
+    "path": 2.267744985888068
+   },
+   {
+    "seed": 10117,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 7.6000000000000005,
+    "path": 3.591892193999886
+   },
+   {
+    "seed": 10118,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 4.4,
+    "path": 2.170402509468284
+   },
+   {
+    "seed": 10119,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 3.4000000000000004,
+    "path": 1.6689109443889305
+   },
+   {
+    "seed": 10120,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 5.0,
+    "path": 2.4392975493066245
+   },
+   {
+    "seed": 10121,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 4.3,
+    "path": 2.049781772414428
+   },
+   {
+    "seed": 10122,
+    "n_obstacles": 5,
+    "outcome": "success",
+    "time": 6.9,
+    "path": 3.393924961603376
+   },
+   {
+    "seed": 10123,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 7.1000000000000005,
+    "path": 3.254389251435786
+   },
+   {
+    "seed": 10124,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 6.2,
+    "path": 3.064006504766703
+   },
+   {
+    "seed": 10125,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 6.0,
+    "path": 2.5954149565276254
+   },
+   {
+    "seed": 10126,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 5.6000000000000005,
+    "path": 2.770592256938337
+   },
+   {
+    "seed": 10127,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 5.1000000000000005,
+    "path": 2.321620364565955
+   },
+   {
+    "seed": 10128,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 4.2,
+    "path": 2.0694756064828974
+   },
+   {
+    "seed": 10129,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 5.7,
+    "path": 2.7871083898394895
+   },
+   {
+    "seed": 10130,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 4.6000000000000005,
+    "path": 2.2015012690953606
+   },
+   {
+    "seed": 10131,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 3.5,
+    "path": 1.7240819769627251
+   },
+   {
+    "seed": 10132,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 3.1,
+    "path": 1.5198367701105775
+   },
+   {
+    "seed": 10133,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 7.2,
+    "path": 3.2372758963851087
+   },
+   {
+    "seed": 10134,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 3.7,
+    "path": 1.6106478368961596
+   },
+   {
+    "seed": 10135,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 4.800000000000001,
+    "path": 2.3198971057804725
+   },
+   {
+    "seed": 10136,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 4.3,
+    "path": 2.1044575232755407
+   },
+   {
+    "seed": 10137,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 3.6,
+    "path": 1.7691209717699685
+   },
+   {
+    "seed": 10138,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 3.3000000000000003,
+    "path": 1.5957000488734405
+   },
+   {
+    "seed": 10139,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 3.4000000000000004,
+    "path": 1.6703455139850052
+   },
+   {
+    "seed": 10140,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 5.800000000000001,
+    "path": 2.868117763902718
+   },
+   {
+    "seed": 10141,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 4.6000000000000005,
+    "path": 2.1348587904725007
+   },
+   {
+    "seed": 10142,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 6.0,
+    "path": 2.936798717036411
+   },
+   {
+    "seed": 10143,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 5.800000000000001,
+    "path": 2.8387325209790433
+   },
+   {
+    "seed": 10144,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 7.4,
+    "path": 3.470911508900514
+   },
+   {
+    "seed": 10145,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 4.4,
+    "path": 1.9082446218468916
+   },
+   {
+    "seed": 10146,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 4.2,
+    "path": 1.913033157429272
+   },
+   {
+    "seed": 10147,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 6.5,
+    "path": 3.21699194806895
+   },
+   {
+    "seed": 10148,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 5.300000000000001,
+    "path": 2.3753165006622066
+   },
+   {
+    "seed": 10149,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 10.200000000000001,
+    "path": 5.060511265812171
+   },
+   {
+    "seed": 10150,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 5.800000000000001,
+    "path": 2.6889098194583787
+   },
+   {
+    "seed": 10151,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 4.800000000000001,
+    "path": 2.3681083857717633
+   },
+   {
+    "seed": 10152,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 4.7,
+    "path": 1.9686973851305332
+   },
+   {
+    "seed": 10153,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 5.300000000000001,
+    "path": 2.6099626701402574
+   },
+   {
+    "seed": 10154,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 8.9,
+    "path": 4.149467332458225
+   },
+   {
+    "seed": 10155,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 4.2,
+    "path": 1.696661773815752
+   },
+   {
+    "seed": 10156,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 3.9000000000000004,
+    "path": 1.7752363823078812
+   },
+   {
+    "seed": 10157,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 3.2,
+    "path": 1.570075810582496
+   },
+   {
+    "seed": 10158,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 4.9,
+    "path": 1.9750989099493201
+   },
+   {
+    "seed": 10159,
+    "n_obstacles": 5,
+    "outcome": "success",
+    "time": 4.0,
+    "path": 1.9635878681651138
+   },
+   {
+    "seed": 10160,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 2.7,
+    "path": 1.326472421710542
+   },
+   {
+    "seed": 10161,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 7.300000000000001,
+    "path": 3.6164614210871533
+   },
+   {
+    "seed": 10162,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 4.7,
+    "path": 2.1933880235347365
+   },
+   {
+    "seed": 10163,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 3.7,
+    "path": 1.6107002883550445
+   },
+   {
+    "seed": 10164,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 5.2,
+    "path": 2.568314853931094
+   },
+   {
+    "seed": 10165,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 3.2,
+    "path": 1.572732519463009
+   },
+   {
+    "seed": 10166,
+    "n_obstacles": 5,
+    "outcome": "success",
+    "time": 5.800000000000001,
+    "path": 2.83322253219193
+   },
+   {
+    "seed": 10167,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 3.6,
+    "path": 1.7719861045309933
+   },
+   {
+    "seed": 10168,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 4.4,
+    "path": 2.169433797909265
+   },
+   {
+    "seed": 10169,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 6.5,
+    "path": 3.0720531824432817
+   },
+   {
+    "seed": 10170,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 6.300000000000001,
+    "path": 2.970559523459896
+   },
+   {
+    "seed": 10171,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 4.1000000000000005,
+    "path": 2.0172655458674553
+   },
+   {
+    "seed": 10172,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 7.4,
+    "path": 3.6677301307544012
+   },
+   {
+    "seed": 10173,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 5.5,
+    "path": 2.5567037584813948
+   },
+   {
+    "seed": 10174,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 4.3,
+    "path": 2.1177882458107162
+   },
+   {
+    "seed": 10175,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 7.7,
+    "path": 3.7862718226303813
+   },
+   {
+    "seed": 10176,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 3.3000000000000003,
+    "path": 1.6207778811033902
+   },
+   {
+    "seed": 10177,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 3.0,
+    "path": 1.377883423868681
+   },
+   {
+    "seed": 10178,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 8.700000000000001,
+    "path": 4.130518309650983
+   },
+   {
+    "seed": 10179,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 7.300000000000001,
+    "path": 3.4063098984576103
+   },
+   {
+    "seed": 10180,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 3.6,
+    "path": 1.7693713257850439
+   },
+   {
+    "seed": 10181,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 5.5,
+    "path": 2.7173031607813534
+   },
+   {
+    "seed": 10182,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 8.9,
+    "path": 4.364441360317589
+   },
+   {
+    "seed": 10183,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 7.2,
+    "path": 3.356381530252976
+   },
+   {
+    "seed": 10184,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 6.300000000000001,
+    "path": 2.8848421445625116
+   },
+   {
+    "seed": 10185,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 5.0,
+    "path": 2.467795647886624
+   },
+   {
+    "seed": 10186,
+    "n_obstacles": 5,
+    "outcome": "success",
+    "time": 5.800000000000001,
+    "path": 2.6634754453959846
+   },
+   {
+    "seed": 10187,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 8.6,
+    "path": 3.997949902279611
+   },
+   {
+    "seed": 10188,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 3.2,
+    "path": 1.5685773731661987
+   },
+   {
+    "seed": 10189,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 2.7,
+    "path": 1.319929390528839
+   },
+   {
+    "seed": 10190,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 5.300000000000001,
+    "path": 2.344836410583479
+   },
+   {
+    "seed": 10191,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 2.7,
+    "path": 1.3234561057153493
+   },
+   {
+    "seed": 10192,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 4.9,
+    "path": 2.3019925190236283
+   },
+   {
+    "seed": 10193,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 7.2,
+    "path": 3.2909954945101156
+   },
+   {
+    "seed": 10194,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 6.6000000000000005,
+    "path": 3.2650242712208564
+   },
+   {
+    "seed": 10195,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 5.0,
+    "path": 2.4618246653014793
+   },
+   {
+    "seed": 10196,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 5.2,
+    "path": 2.566710916967702
+   },
+   {
+    "seed": 10197,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 4.2,
+    "path": 2.064019831912034
+   },
+   {
+    "seed": 10198,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 7.800000000000001,
+    "path": 3.8632085342127
+   },
+   {
+    "seed": 10199,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 5.5,
+    "path": 2.7170474794979462
+   },
+   {
+    "seed": 10200,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 4.800000000000001,
+    "path": 2.127229592246173
+   },
+   {
+    "seed": 10201,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 4.0,
+    "path": 1.9682701547314245
+   },
+   {
+    "seed": 10202,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 4.2,
+    "path": 2.0695107692189767
+   },
+   {
+    "seed": 10203,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 5.800000000000001,
+    "path": 2.5881784795391427
+   },
+   {
+    "seed": 10204,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 5.1000000000000005,
+    "path": 2.3586677725898078
+   },
+   {
+    "seed": 10205,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 9.200000000000001,
+    "path": 4.428467960122725
+   },
+   {
+    "seed": 10206,
+    "n_obstacles": 5,
+    "outcome": "success",
+    "time": 5.2,
+    "path": 2.569400743335192
+   },
+   {
+    "seed": 10207,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 6.9,
+    "path": 3.4135789765466282
+   },
+   {
+    "seed": 10208,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 3.9000000000000004,
+    "path": 1.8328914612047733
+   },
+   {
+    "seed": 10209,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 7.4,
+    "path": 3.371275987080204
+   },
+   {
+    "seed": 10210,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 4.0,
+    "path": 1.9662359016622761
+   },
+   {
+    "seed": 10211,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 5.1000000000000005,
+    "path": 2.1861084345427817
+   },
+   {
+    "seed": 10212,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 2.8000000000000003,
+    "path": 1.372559236948556
+   },
+   {
+    "seed": 10213,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 5.0,
+    "path": 2.456902160976229
+   },
+   {
+    "seed": 10214,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 2.7,
+    "path": 1.3217188101082498
+   },
+   {
+    "seed": 10215,
+    "n_obstacles": 5,
+    "outcome": "success",
+    "time": 6.0,
+    "path": 2.6309935256275536
+   },
+   {
+    "seed": 10216,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 7.1000000000000005,
+    "path": 3.5098574589957328
+   },
+   {
+    "seed": 10217,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 4.800000000000001,
+    "path": 2.369045313293327
+   },
+   {
+    "seed": 10218,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 4.7,
+    "path": 2.316969097133204
+   },
+   {
+    "seed": 10219,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 4.2,
+    "path": 2.069295775028518
+   },
+   {
+    "seed": 10220,
+    "n_obstacles": 5,
+    "outcome": "success",
+    "time": 4.2,
+    "path": 2.0674893283899727
+   },
+   {
+    "seed": 10221,
+    "n_obstacles": 5,
+    "outcome": "success",
+    "time": 7.7,
+    "path": 3.4059031644627815
+   },
+   {
+    "seed": 10222,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 4.1000000000000005,
+    "path": 2.0179114673019702
+   },
+   {
+    "seed": 10223,
+    "n_obstacles": 5,
+    "outcome": "success",
+    "time": 5.800000000000001,
+    "path": 2.7252740719838946
+   },
+   {
+    "seed": 10224,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 6.9,
+    "path": 3.1939931645876314
+   },
+   {
+    "seed": 10225,
+    "n_obstacles": 4,
+    "outcome": "collision",
+    "time": 5.800000000000001,
+    "path": 2.656861398282072
+   },
+   {
+    "seed": 10226,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 5.6000000000000005,
+    "path": 2.603512344303453
+   },
+   {
+    "seed": 10227,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 8.200000000000001,
+    "path": 4.057927451271082
+   },
+   {
+    "seed": 10228,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 7.4,
+    "path": 3.6031845584804567
+   },
+   {
+    "seed": 10229,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 3.1,
+    "path": 1.522363853644176
+   },
+   {
+    "seed": 10230,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 8.1,
+    "path": 3.680967794765981
+   },
+   {
+    "seed": 10231,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 4.0,
+    "path": 1.969875578412096
+   },
+   {
+    "seed": 10232,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 4.3,
+    "path": 2.1218878649461614
+   },
+   {
+    "seed": 10233,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 5.1000000000000005,
+    "path": 2.5200620958111686
+   },
+   {
+    "seed": 10234,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 5.300000000000001,
+    "path": 2.3073147139728505
+   },
+   {
+    "seed": 10235,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 5.7,
+    "path": 2.538929995851603
+   },
+   {
+    "seed": 10236,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 5.5,
+    "path": 2.717076227699425
+   },
+   {
+    "seed": 10237,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 6.4,
+    "path": 2.9025339836763084
+   },
+   {
+    "seed": 10238,
+    "n_obstacles": 5,
+    "outcome": "success",
+    "time": 6.6000000000000005,
+    "path": 3.269704620164632
+   },
+   {
+    "seed": 10239,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 3.1,
+    "path": 1.519118190178081
+   },
+   {
+    "seed": 10240,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 6.4,
+    "path": 3.011937209497263
+   },
+   {
+    "seed": 10241,
+    "n_obstacles": 5,
+    "outcome": "success",
+    "time": 5.6000000000000005,
+    "path": 2.447475097865576
+   },
+   {
+    "seed": 10242,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 6.1000000000000005,
+    "path": 2.9747561549518147
+   },
+   {
+    "seed": 10243,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 5.0,
+    "path": 2.46810258599314
+   },
+   {
+    "seed": 10244,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 6.2,
+    "path": 3.0705383508612947
+   },
+   {
+    "seed": 10245,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 5.300000000000001,
+    "path": 2.5257410914280056
+   },
+   {
+    "seed": 10246,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 3.7,
+    "path": 1.6827425534725344
+   },
+   {
+    "seed": 10247,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 6.9,
+    "path": 3.0551816437785044
+   },
+   {
+    "seed": 10248,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 4.3,
+    "path": 1.8894438920616674
+   },
+   {
+    "seed": 10249,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 7.9,
+    "path": 3.754657854296552
+   },
+   {
+    "seed": 10250,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 3.2,
+    "path": 1.5655350263091659
+   },
+   {
+    "seed": 10251,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 6.4,
+    "path": 3.1689099073804177
+   },
+   {
+    "seed": 10252,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 4.9,
+    "path": 2.4181340229861457
+   },
+   {
+    "seed": 10253,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 6.4,
+    "path": 2.8326769305343724
+   },
+   {
+    "seed": 10254,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 6.6000000000000005,
+    "path": 3.267806129221847
+   },
+   {
+    "seed": 10255,
+    "n_obstacles": 5,
+    "outcome": "success",
+    "time": 7.1000000000000005,
+    "path": 3.466262036892547
+   },
+   {
+    "seed": 10256,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 6.1000000000000005,
+    "path": 3.0181671827297185
+   },
+   {
+    "seed": 10257,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 4.3,
+    "path": 1.9777538477289618
+   },
+   {
+    "seed": 10258,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 5.2,
+    "path": 2.556635922752839
+   },
+   {
+    "seed": 10259,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 8.6,
+    "path": 4.259524697739253
+   },
+   {
+    "seed": 10260,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 3.8000000000000003,
+    "path": 1.8677055886320515
+   },
+   {
+    "seed": 10261,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 4.800000000000001,
+    "path": 2.354086556659885
+   },
+   {
+    "seed": 10262,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 2.9000000000000004,
+    "path": 1.422205296156724
+   },
+   {
+    "seed": 10263,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 6.1000000000000005,
+    "path": 3.0151064603365
+   },
+   {
+    "seed": 10264,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 6.5,
+    "path": 3.2159705567087813
+   },
+   {
+    "seed": 10265,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 4.7,
+    "path": 2.197167112895009
+   },
+   {
+    "seed": 10266,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 3.7,
+    "path": 1.5479219025872686
+   },
+   {
+    "seed": 10267,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 5.2,
+    "path": 2.4561861737666684
+   },
+   {
+    "seed": 10268,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 4.6000000000000005,
+    "path": 2.1896019068679005
+   },
+   {
+    "seed": 10269,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 3.9000000000000004,
+    "path": 1.9204786764951256
+   },
+   {
+    "seed": 10270,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 2.9000000000000004,
+    "path": 1.4229819889977768
+   },
+   {
+    "seed": 10271,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 5.9,
+    "path": 2.9161915262333786
+   },
+   {
+    "seed": 10272,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 4.5,
+    "path": 2.2022284875778073
+   },
+   {
+    "seed": 10273,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 8.8,
+    "path": 4.092509087179029
+   },
+   {
+    "seed": 10274,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 5.1000000000000005,
+    "path": 2.3487985233846755
+   },
+   {
+    "seed": 10275,
+    "n_obstacles": 5,
+    "outcome": "success",
+    "time": 3.7,
+    "path": 1.8201287755938795
+   },
+   {
+    "seed": 10276,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 7.5,
+    "path": 3.595638074547273
+   },
+   {
+    "seed": 10277,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 8.700000000000001,
+    "path": 4.311534113213963
+   },
+   {
+    "seed": 10278,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 4.7,
+    "path": 2.3119680329055834
+   },
+   {
+    "seed": 10279,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 9.600000000000001,
+    "path": 4.42227050885088
+   },
+   {
+    "seed": 10280,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 4.5,
+    "path": 1.9687937485178846
+   },
+   {
+    "seed": 10281,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 4.5,
+    "path": 2.2168607494493737
+   },
+   {
+    "seed": 10282,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 6.0,
+    "path": 2.776004736060539
+   },
+   {
+    "seed": 10283,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 5.800000000000001,
+    "path": 2.669812512721831
+   },
+   {
+    "seed": 10284,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 5.0,
+    "path": 2.218989495908009
+   },
+   {
+    "seed": 10285,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 3.6,
+    "path": 1.4991702967161125
+   },
+   {
+    "seed": 10286,
+    "n_obstacles": 5,
+    "outcome": "success",
+    "time": 4.5,
+    "path": 1.9987774372415401
+   },
+   {
+    "seed": 10287,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 4.2,
+    "path": 1.9534133927223125
+   },
+   {
+    "seed": 10288,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 7.1000000000000005,
+    "path": 3.2468002160816503
+   },
+   {
+    "seed": 10289,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 5.300000000000001,
+    "path": 2.6154986861106186
+   },
+   {
+    "seed": 10290,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 7.9,
+    "path": 3.7213705972135793
+   },
+   {
+    "seed": 10291,
+    "n_obstacles": 8,
+    "outcome": "success",
+    "time": 3.6,
+    "path": 1.770602856266855
+   },
+   {
+    "seed": 10292,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 4.4,
+    "path": 2.053343836944601
+   },
+   {
+    "seed": 10293,
+    "n_obstacles": 9,
+    "outcome": "success",
+    "time": 6.6000000000000005,
+    "path": 3.1451966839681083
+   },
+   {
+    "seed": 10294,
+    "n_obstacles": 7,
+    "outcome": "success",
+    "time": 3.0,
+    "path": 1.4169358893595985
+   },
+   {
+    "seed": 10295,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 7.0,
+    "path": 3.300870611661403
+   },
+   {
+    "seed": 10296,
+    "n_obstacles": 10,
+    "outcome": "success",
+    "time": 3.2,
+    "path": 1.5753581052487264
+   },
+   {
+    "seed": 10297,
+    "n_obstacles": 4,
+    "outcome": "success",
+    "time": 4.7,
+    "path": 2.0853275325461036
+   },
+   {
+    "seed": 10298,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 5.2,
+    "path": 2.5722326624693843
+   },
+   {
+    "seed": 10299,
+    "n_obstacles": 6,
+    "outcome": "success",
+    "time": 5.4,
+    "path": 2.505592610954975
+   }
+  ]
+ }
+}
